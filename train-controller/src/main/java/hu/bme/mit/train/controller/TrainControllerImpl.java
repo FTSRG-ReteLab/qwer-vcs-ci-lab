@@ -14,7 +14,7 @@ public class TrainControllerImpl implements TrainController {
 
 	public TrainControllerImpl() {
 		Timer timer = new Timer("Timer");
-		long delay = 1000L;
+		long delay = 500L;
 		timer.schedule(new TimerTask() {
 			public void run() {
 				followSpeed();
