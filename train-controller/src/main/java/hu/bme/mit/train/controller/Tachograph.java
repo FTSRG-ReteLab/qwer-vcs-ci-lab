@@ -11,8 +11,8 @@ public class Tachograph {
     t = HashBasedTable.create();
   }
 
-  public void put(int timestamp, double jstick, double r_speed) {
-    this.t.put(timestamp, jstick, r_speed);
+  public void put(int timestamp, double jstick, double rSpeed) {
+    this.t.put(timestamp, jstick, rSpeed);
   }
 
   public double get(int timestamp, double jstick) {
